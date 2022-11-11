@@ -1,0 +1,38 @@
+{
+  // Use the local version of Typescript
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // ESM requires extensions on import paths to work,
+  // these options tell VSCode to prefer adding extensions
+  // on auto-import.
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+
+  // Make sure ESLint runs on target files.
+  "eslint.validate": ["javascript", "typescript"],
+
+  // Use pnpm
+  "npm.packageManager": "pnpm",
+  "eslint.packageManager": "pnpm",
+
+  // Check JavaScript by default (using the Typescript engine)
+  "js/ts.implicitProjectConfig.checkJs": true,
+
+  // Auto-format
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Let VSCode auto-update import paths when you move files around
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Hide node_modules
+  "files.exclude": {
+    ".pnpm-store": true,
+    "**/node_modules/.*": true,
+    "**/node_modules/**/node_modules": true
+  }
+}
