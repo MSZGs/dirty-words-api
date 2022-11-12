@@ -11,6 +11,6 @@ router.get("/insults/random", RandomInsultHandler);
 
 router.get("*", NotFoundHandler);
 
-export default {
+export default <ExportedHandler>{
   fetch: router.handle,
 };

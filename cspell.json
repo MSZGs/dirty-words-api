@@ -3,7 +3,7 @@
   "ignorePaths": ["./src/data"],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["itty"],
+  "words": ["itty", "parens"],
   "ignoreWords": [],
   "import": []
 }

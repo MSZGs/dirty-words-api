@@ -1,10 +1,17 @@
-import { RouteHandler, Request } from "itty-router";
+import { RouteHandler, Request, Obj } from "itty-router";
 
 export interface WorkerRouteHandler<TRequest> extends RouteHandler<TRequest> {
   (request: TRequest, ...args: unknown[]): Response;
 }
 
 export const createHandler = <TRequest = Request>(handler: WorkerRouteHandler<TRequest>) => handler;
+
+export type QueryParamParser<TQueryParam> = (query: Obj | undefined) => TQueryParam;
+
+export const createQueryParamParser =
+  <TQueryParam>(parser: QueryParamParser<TQueryParam>) =>
+  (request: Request) =>
+    parser(request?.query);
 
 export const jsonResponse = <TResponse>(data: TResponse, init?: ResponseInit) => {
   const body = JSON.stringify(data);
@@ -13,6 +20,14 @@ export const jsonResponse = <TResponse>(data: TResponse, init?: ResponseInit) =>
   return new Response(body, { ...init, headers: { ...init?.headers, ...headers } });
 };
 
+/**
+ * Getting a random integer between two values.
+ * The value is no lower than min (or the next integer greater than min if min isn't an integer), and is less than (but not equal to) max.
+ *
+ * @see [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values)
+ *
+ * @returns A random integer between the specified values.
+ */
 export const getRandomNumber = (min: number, max: number) => {
   min = Math.ceil(min);
   max = Math.floor(max);

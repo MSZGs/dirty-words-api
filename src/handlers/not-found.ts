@@ -1,3 +1,3 @@
-import { createHandler } from "../helpers.js";
+import { createHandler, jsonResponse } from "../helpers.js";
 
-export default createHandler(() => new Response("Not found", { status: 404 }));
+export default createHandler(() => jsonResponse("404 Not Found", { status: 404 }));
