@@ -1,0 +1,1394 @@
+﻿{
+    "dirtyWords": {
+        "words": [
+            {
+                "type": "adjective",
+                "text": "Aberált"
+            },
+            {
+                "type": "adjective",
+                "text": "Aberrált"
+            },
+            {
+                "type": "noun",
+                "text": "Abortuszmaradék"
+            },
+            {
+                "type": "adjective",
+                "text": "Abszolút hülye"
+            },
+            {
+                "type": "adjective",
+                "text": "Agyalágyult"
+            },
+            {
+                "type": "adjective",
+                "text": "Agyatlan"
+            },
+            {
+                "type": "adjective",
+                "text": "Agybatetovált"
+            },
+            {
+                "type": "adjective",
+                "text": "Ágybavizelős"
+            },
+            {
+                "type": "noun",
+                "text": "Agyfasz"
+            },
+            {
+                "type": "noun",
+                "text": "Agyhalott"
+            },
+            {
+                "type": "adjective",
+                "text": "Agyonkúrt"
+            },
+            {
+                "type": "adjective",
+                "text": "Agyonvert"
+            },
+            {
+                "type": "adjective",
+                "text": "Agyrákos"
+            },
+            {
+                "type": "adjective",
+                "text": "AIDS-es"
+            },
+            {
+                "type": "adjective",
+                "text": "Alapvetően fasz"
+            },
+            {
+                "type": "noun",
+                "text": "Animalsex-mániás"
+            },
+            {
+                "type": "noun",
+                "text": "Antibarom"
+            },
+            {
+                "type": "adjective",
+                "text": "Aprófaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Arcbarakott"
+            },
+            {
+                "type": "adjective",
+                "text": "Aszaltfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Aszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Átbaszott"
+            },
+            {
+                "type": "noun",
+                "text": "Azt a kurva de fasz"
+            },
+            {
+                "type": "noun",
+                "text": "Balfasz"
+            },
+            {
+                "type": "noun",
+                "text": "Balfészek"
+            },
+            {
+                "type": "noun",
+                "text": "Baromfifasz"
+            },
+            {
+                "type": "noun",
+                "text": "Basz-o-matic"
+            },
+            {
+                "type": "adjective",
+                "text": "Baszhatatlan"
+            },
+            {
+                "type": "adjective",
+                "text": "Basznivaló"
+            },
+            {
+                "type": "adjective",
+                "text": "Bebaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Befosi"
+            },
+            {
+                "type": "adjective",
+                "text": "Békapicsa"
+            },
+            {
+                "type": "adjective",
+                "text": "Bélböfi"
+            },
+            {
+                "type": "adjective",
+                "text": "Beleiből kiforgatott"
+            },
+            {
+                "type": "noun",
+                "text": "Bélszél"
+            },
+            {
+                "type": "noun",
+                "text": "Brunya"
+            },
+            {
+                "type": "adjective",
+                "text": "Büdösszájú"
+            },
+            {
+                "type": "adjective",
+                "text": "Búvalbaszott"
+            },
+            {
+                "type": "noun",
+                "text": "Buzeráns"
+            },
+            {
+                "type": "adjective",
+                "text": "Buzernyák"
+            },
+            {
+                "type": "noun",
+                "text": "Buzi"
+            },
+            {
+                "type": "noun",
+                "text": "Buzikurva"
+            },
+            {
+                "type": "noun",
+                "text": "Cafat"
+            },
+            {
+                "type": "noun",
+                "text": "Cafka"
+            },
+            {
+                "type": "noun",
+                "text": "Céda"
+            },
+            {
+                "type": "adjective",
+                "text": "Cérnafaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Cottonfej"
+            },
+            {
+                "type": "adjective",
+                "text": "Cseszett"
+            },
+            {
+                "type": "noun",
+                "text": "Csibefasz"
+            },
+            {
+                "type": "noun",
+                "text": "Csipszar"
+            },
+            {
+                "type": "adjective",
+                "text": "Csirkefaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Csitri"
+            },
+            {
+                "type": "noun",
+                "text": "Csöcs"
+            },
+            {
+                "type": "noun",
+                "text": "Csöcsfej"
+            },
+            {
+                "type": "noun",
+                "text": "Csöppszar"
+            },
+            {
+                "type": "adjective",
+                "text": "Csupaszfarkú"
+            },
+            {
+                "type": "noun",
+                "text": "Cuncipunci"
+            },
+            {
+                "type": "adjective",
+                "text": "Deformáltfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Dekorált pofájú"
+            },
+            {
+                "type": "adjective",
+                "text": "Döbbenetesen segg"
+            },
+            {
+                "type": "adjective",
+                "text": "Dobseggű"
+            },
+            {
+                "type": "adjective",
+                "text": "Dughatatlan"
+            },
+            {
+                "type": "adjective",
+                "text": "Dunyhavalagú"
+            },
+            {
+                "type": "adjective",
+                "text": "Duplafaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Ebfasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Egyszerűen fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Elbaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Eleve hülye"
+            },
+            {
+                "type": "adjective",
+                "text": "Extrahülye"
+            },
+            {
+                "type": "adjective",
+                "text": "Fantasztikusan segg"
+            },
+            {
+                "type": "noun",
+                "text": "Fasszopó"
+            },
+            {
+                "type": "adjective",
+                "text": "Fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Fasz-emulátor"
+            },
+            {
+                "type": "adjective",
+                "text": "Faszagyú"
+            },
+            {
+                "type": "noun",
+                "text": "Faszarc"
+            },
+            {
+                "type": "noun",
+                "text": "Faszfej"
+            },
+            {
+                "type": "noun",
+                "text": "Faszfészek"
+            },
+            {
+                "type": "noun",
+                "text": "Faszkalap"
+            },
+            {
+                "type": "noun",
+                "text": "Faszkarika"
+            },
+            {
+                "type": "adjective",
+                "text": "Faszkedvelő"
+            },
+            {
+                "type": "noun",
+                "text": "Faszkópé"
+            },
+            {
+                "type": "noun",
+                "text": "Faszogány"
+            },
+            {
+                "type": "noun",
+                "text": "Faszpörgettyű"
+            },
+            {
+                "type": "noun",
+                "text": "Faszsapka"
+            },
+            {
+                "type": "adjective",
+                "text": "Faszszagú"
+            },
+            {
+                "type": "noun",
+                "text": "Faszszopó"
+            },
+            {
+                "type": "adjective",
+                "text": "Fasztalan"
+            },
+            {
+                "type": "noun",
+                "text": "Fasztarisznya"
+            },
+            {
+                "type": "noun",
+                "text": "Fasztengely"
+            },
+            {
+                "type": "noun",
+                "text": "Fasztolvaj"
+            },
+            {
+                "type": "noun",
+                "text": "Faszváladék"
+            },
+            {
+                "type": "noun",
+                "text": "Faszverő"
+            },
+            {
+                "type": "adjective",
+                "text": "Félrebaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Félrefingott"
+            },
+            {
+                "type": "adjective",
+                "text": "Félreszart"
+            },
+            {
+                "type": "noun",
+                "text": "Félribanc"
+            },
+            {
+                "type": "noun",
+                "text": "Fing"
+            },
+            {
+                "type": "adjective",
+                "text": "Fölcsinált"
+            },
+            {
+                "type": "adjective",
+                "text": "Fölfingott"
+            },
+            {
+                "type": "noun",
+                "text": "Fos"
+            },
+            {
+                "type": "noun",
+                "text": "Foskemence"
+            },
+            {
+                "type": "noun",
+                "text": "Fospisztoly"
+            },
+            {
+                "type": "noun",
+                "text": "Fospumpa"
+            },
+            {
+                "type": "noun",
+                "text": "Fostalicska"
+            },
+            {
+                "type": "noun",
+                "text": "Fütyi"
+            },
+            {
+                "type": "adjective",
+                "text": "Fütyinyalogató"
+            },
+            {
+                "type": "noun",
+                "text": "Fütykös"
+            },
+            {
+                "type": "noun",
+                "text": "Geci"
+            },
+            {
+                "type": "adjective",
+                "text": "Gecinyelő"
+            },
+            {
+                "type": "adjective",
+                "text": "Geciszaró"
+            },
+            {
+                "type": "adjective",
+                "text": "Geciszívó"
+            },
+            {
+                "type": "noun",
+                "text": "Genny"
+            },
+            {
+                "type": "adjective",
+                "text": "Gennyesszájú"
+            },
+            {
+                "type": "noun",
+                "text": "Gennygóc"
+            },
+            {
+                "type": "noun",
+                "text": "Genyac"
+            },
+            {
+                "type": "noun",
+                "text": "Genyó"
+            },
+            {
+                "type": "noun",
+                "text": "Gólyafos"
+            },
+            {
+                "type": "adjective",
+                "text": "Görbefaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Gyennyszopó"
+            },
+            {
+                "type": "noun",
+                "text": "Gyíkfing"
+            },
+            {
+                "type": "noun",
+                "text": "Hájpacni"
+            },
+            {
+                "type": "noun",
+                "text": "Hatalmas nagy fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Hátbabaszott"
+            },
+            {
+                "type": "noun",
+                "text": "Házikurva"
+            },
+            {
+                "type": "adjective",
+                "text": "Hererákos"
+            },
+            {
+                "type": "adjective",
+                "text": "Hígagyú"
+            },
+            {
+                "type": "adjective",
+                "text": "Hihetetlenül fasz"
+            },
+            {
+                "type": "noun",
+                "text": "Hikomat"
+            },
+            {
+                "type": "noun",
+                "text": "Hímnőstény"
+            },
+            {
+                "type": "noun",
+                "text": "Hímringyó"
+            },
+            {
+                "type": "adjective",
+                "text": "Hiperstrici"
+            },
+            {
+                "type": "adjective",
+                "text": "Hitler-imádó"
+            },
+            {
+                "type": "adjective",
+                "text": "Hitlerista"
+            },
+            {
+                "type": "noun",
+                "text": "Hivatásos balfasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Hú de segg"
+            },
+            {
+                "type": "adjective",
+                "text": "Hugyagyú"
+            },
+            {
+                "type": "adjective",
+                "text": "Hugyos"
+            },
+            {
+                "type": "noun",
+                "text": "Hugytócsa"
+            },
+            {
+                "type": "adjective",
+                "text": "Hüje"
+            },
+            {
+                "type": "adjective",
+                "text": "Hüle"
+            },
+            {
+                "type": "adjective",
+                "text": "Hülye"
+            },
+            {
+                "type": "adjective",
+                "text": "Hülyécske"
+            },
+            {
+                "type": "noun",
+                "text": "Hülyegyerek"
+            },
+            {
+                "type": "noun",
+                "text": "Inkubátor-szökevény"
+            },
+            {
+                "type": "noun",
+                "text": "Integrált barom"
+            },
+            {
+                "type": "adjective",
+                "text": "Ionizált faszú"
+            },
+            {
+                "type": "noun",
+                "text": "IQ bajnok"
+            },
+            {
+                "type": "noun",
+                "text": "IQ fighter"
+            },
+            {
+                "type": "adjective",
+                "text": "IQ hiányos"
+            },
+            {
+                "type": "adjective",
+                "text": "Irdatlanul köcsög"
+            },
+            {
+                "type": "adjective",
+                "text": "Íveltfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Jajj de barom"
+            },
+            {
+                "type": "adjective",
+                "text": "Jókora fasz"
+            },
+            {
+                "type": "noun",
+                "text": "Kaka"
+            },
+            {
+                "type": "noun",
+                "text": "Kakamatyi"
+            },
+            {
+                "type": "noun",
+                "text": "Kaki"
+            },
+            {
+                "type": "noun",
+                "text": "Kaksi"
+            },
+            {
+                "type": "adjective",
+                "text": "Kecskebaszó"
+            },
+            {
+                "type": "adjective",
+                "text": "Kellően fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Képlékeny faszú"
+            },
+            {
+                "type": "noun",
+                "text": "Keresve sem található fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Kétfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Kétszer agyonbaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Ki-bebaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Kibaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Kifingott"
+            },
+            {
+                "type": "adjective",
+                "text": "Kiherélt"
+            },
+            {
+                "type": "adjective",
+                "text": "Kikakkantott"
+            },
+            {
+                "type": "adjective",
+                "text": "Kikészült"
+            },
+            {
+                "type": "adjective",
+                "text": "Kimagaslóan fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Kimondhatatlan pöcs"
+            },
+            {
+                "type": "noun",
+                "text": "Kis szaros"
+            },
+            {
+                "type": "noun",
+                "text": "Kisfütyi"
+            },
+            {
+                "type": "adjective",
+                "text": "Klotyószagú"
+            },
+            {
+                "type": "adjective",
+                "text": "Kojak-faszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Kopárfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Korlátolt gecizésű"
+            },
+            {
+                "type": "noun",
+                "text": "Kotonszökevény"
+            },
+            {
+                "type": "adjective",
+                "text": "Középszar"
+            },
+            {
+                "type": "noun",
+                "text": "Kretén"
+            },
+            {
+                "type": "noun",
+                "text": "Kuki"
+            },
+            {
+                "type": "noun",
+                "text": "Kula"
+            },
+            {
+                "type": "adjective",
+                "text": "Kunkorított faszú"
+            },
+            {
+                "type": "noun",
+                "text": "Kurva"
+            },
+            {
+                "type": "adjective",
+                "text": "Kurvaanyjú"
+            },
+            {
+                "type": "noun",
+                "text": "Kurvapecér"
+            },
+            {
+                "type": "noun",
+                "text": "Kutyakaki"
+            },
+            {
+                "type": "noun",
+                "text": "Kutyapina"
+            },
+            {
+                "type": "noun",
+                "text": "Kutyaszar"
+            },
+            {
+                "type": "adjective",
+                "text": "Lankadtfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Lebaszirgált"
+            },
+            {
+                "type": "adjective",
+                "text": "Lebaszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Lecseszett"
+            },
+            {
+                "type": "adjective",
+                "text": "Leírhatatlanul segg"
+            },
+            {
+                "type": "adjective",
+                "text": "Lemenstruált"
+            },
+            {
+                "type": "adjective",
+                "text": "Leokádott"
+            },
+            {
+                "type": "noun",
+                "text": "Lepkefing"
+            },
+            {
+                "type": "noun",
+                "text": "Leprafészek"
+            },
+            {
+                "type": "adjective",
+                "text": "Leszart"
+            },
+            {
+                "type": "adjective",
+                "text": "Leszbikus"
+            },
+            {
+                "type": "noun",
+                "text": "Lőcs"
+            },
+            {
+                "type": "noun",
+                "text": "Lőcsgéza"
+            },
+            {
+                "type": "noun",
+                "text": "Lófasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Lógócsöcsű"
+            },
+            {
+                "type": "noun",
+                "text": "Lóhugy"
+            },
+            {
+                "type": "noun",
+                "text": "Lotyó"
+            },
+            {
+                "type": "adjective",
+                "text": "Lucskos"
+            },
+            {
+                "type": "noun",
+                "text": "Lugnya"
+            },
+            {
+                "type": "adjective",
+                "text": "Lyukasbelű"
+            },
+            {
+                "type": "adjective",
+                "text": "Lyukasfaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Lyukát vakaró"
+            },
+            {
+                "type": "adjective",
+                "text": "Lyuktalanított"
+            },
+            {
+                "type": "noun",
+                "text": "Mamutsegg"
+            },
+            {
+                "type": "noun",
+                "text": "Maszturbációs görcs"
+            },
+            {
+                "type": "noun",
+                "text": "Maszturbagép"
+            },
+            {
+                "type": "adjective",
+                "text": "Maszturbáltatott"
+            },
+            {
+                "type": "adjective",
+                "text": "Megfingatott"
+            },
+            {
+                "type": "adjective",
+                "text": "Megkettyintett"
+            },
+            {
+                "type": "adjective",
+                "text": "Megkúrt"
+            },
+            {
+                "type": "adjective",
+                "text": "Megszopatott"
+            },
+            {
+                "type": "adjective",
+                "text": "Mesterséges faszú"
+            },
+            {
+                "type": "noun",
+                "text": "Méteres kékeres"
+            },
+            {
+                "type": "adjective",
+                "text": "Mikrotökű"
+            },
+            {
+                "type": "noun",
+                "text": "Mojfing"
+            },
+            {
+                "type": "adjective",
+                "text": "Műfaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Muff"
+            },
+            {
+                "type": "noun",
+                "text": "Multifasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Műtöttpofájú"
+            },
+            {
+                "type": "adjective",
+                "text": "Náci"
+            },
+            {
+                "type": "noun",
+                "text": "Nikotinpatkány"
+            },
+            {
+                "type": "adjective",
+                "text": "Nimfomániás"
+            },
+            {
+                "type": "noun",
+                "text": "Nuna"
+            },
+            {
+                "type": "noun",
+                "text": "Nunci"
+            },
+            {
+                "type": "noun",
+                "text": "Nuncóka"
+            },
+            {
+                "type": "noun",
+                "text": "Nyalábfasz"
+            },
+            {
+                "type": "noun",
+                "text": "Nyelestojás"
+            },
+            {
+                "type": "noun",
+                "text": "Nyúlszar"
+            },
+            {
+                "type": "noun",
+                "text": "Oltári nagy fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Ondónyelő"
+            },
+            {
+                "type": "adjective",
+                "text": "Orbitálisan hülye"
+            },
+            {
+                "type": "adjective",
+                "text": "Ordenálé"
+            },
+            {
+                "type": "adjective",
+                "text": "Összebaszott"
+            },
+            {
+                "type": "noun",
+                "text": "Ötcsillagos fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Óvszerezett"
+            },
+            {
+                "type": "noun",
+                "text": "Pénisz"
+            },
+            {
+                "type": "adjective",
+                "text": "Peremesfaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Picsa"
+            },
+            {
+                "type": "noun",
+                "text": "Picsafej"
+            },
+            {
+                "type": "adjective",
+                "text": "Picsameresztő"
+            },
+            {
+                "type": "adjective",
+                "text": "Picsánnyalt"
+            },
+            {
+                "type": "adjective",
+                "text": "Picsánrugott"
+            },
+            {
+                "type": "adjective",
+                "text": "Picsányi"
+            },
+            {
+                "type": "noun",
+                "text": "Pina"
+            },
+            {
+                "type": "noun",
+                "text": "Pisa"
+            },
+            {
+                "type": "adjective",
+                "text": "Pisaszagú"
+            },
+            {
+                "type": "adjective",
+                "text": "Pisis"
+            },
+            {
+                "type": "noun",
+                "text": "Pöcs"
+            },
+            {
+                "type": "noun",
+                "text": "Pöcsfej"
+            },
+            {
+                "type": "adjective",
+                "text": "Porbafingó"
+            },
+            {
+                "type": "noun",
+                "text": "Pornóbuzi"
+            },
+            {
+                "type": "adjective",
+                "text": "Pornómániás"
+            },
+            {
+                "type": "adjective",
+                "text": "Pudvás"
+            },
+            {
+                "type": "adjective",
+                "text": "Pudváslikú"
+            },
+            {
+                "type": "adjective",
+                "text": "Puhafaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Punci"
+            },
+            {
+                "type": "noun",
+                "text": "Puncimókus"
+            },
+            {
+                "type": "adjective",
+                "text": "Puncis"
+            },
+            {
+                "type": "noun",
+                "text": "Punciutáló"
+            },
+            {
+                "type": "noun",
+                "text": "Puncivirág"
+            },
+            {
+                "type": "noun",
+                "text": "Qki"
+            },
+            {
+                "type": "noun",
+                "text": "Qrva"
+            },
+            {
+                "type": "noun",
+                "text": "Qtyaszar"
+            },
+            {
+                "type": "adjective",
+                "text": "Rágcsáltfaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Redva"
+            },
+            {
+                "type": "adjective",
+                "text": "Rendkívül fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Rétó-román"
+            },
+            {
+                "type": "noun",
+                "text": "Ribanc"
+            },
+            {
+                "type": "noun",
+                "text": "Riherongy"
+            },
+            {
+                "type": "adjective",
+                "text": "Rivalizáló"
+            },
+            {
+                "type": "noun",
+                "text": "Rőfös fasz"
+            },
+            {
+                "type": "adjective",
+                "text": "Rojtospicsájú"
+            },
+            {
+                "type": "adjective",
+                "text": "Rongyospinájú"
+            },
+            {
+                "type": "adjective",
+                "text": "Roppant hülye"
+            },
+            {
+                "type": "noun",
+                "text": "Rossz kurva"
+            },
+            {
+                "type": "adjective",
+                "text": "Saját nemével kefélő"
+            },
+            {
+                "type": "noun",
+                "text": "Segg"
+            },
+            {
+                "type": "noun",
+                "text": "Seggarc"
+            },
+            {
+                "type": "noun",
+                "text": "Seggdugó"
+            },
+            {
+                "type": "noun",
+                "text": "Seggfej"
+            },
+            {
+                "type": "noun",
+                "text": "Seggnyaló"
+            },
+            {
+                "type": "noun",
+                "text": "Seggszőr"
+            },
+            {
+                "type": "noun",
+                "text": "Seggtorlasz"
+            },
+            {
+                "type": "noun",
+                "text": "Strici"
+            },
+            {
+                "type": "adjective",
+                "text": "Suttyó"
+            },
+            {
+                "type": "adjective",
+                "text": "Sutyerák"
+            },
+            {
+                "type": "adjective",
+                "text": "Szálkafaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Szar"
+            },
+            {
+                "type": "noun",
+                "text": "Szaralak"
+            },
+            {
+                "type": "noun",
+                "text": "Szárazfing"
+            },
+            {
+                "type": "noun",
+                "text": "Szarbojler"
+            },
+            {
+                "type": "noun",
+                "text": "Szarcsimbók"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarevő"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarfaszú"
+            },
+            {
+                "type": "noun",
+                "text": "Szarházi"
+            },
+            {
+                "type": "noun",
+                "text": "Szarjankó"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarnivaló"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarosvalagú"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarrá vágott"
+            },
+            {
+                "type": "noun",
+                "text": "Szarrágó"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarszagú"
+            },
+            {
+                "type": "adjective",
+                "text": "Szarszájú"
+            },
+            {
+                "type": "noun",
+                "text": "Szartragacs"
+            },
+            {
+                "type": "noun",
+                "text": "Szarzsák"
+            },
+            {
+                "type": "noun",
+                "text": "Szégyencsicska"
+            },
+            {
+                "type": "adjective",
+                "text": "Szifiliszes"
+            },
+            {
+                "type": "noun",
+                "text": "Szivattyús kurva"
+            },
+            {
+                "type": "adjective",
+                "text": "Szófosó"
+            },
+            {
+                "type": "adjective",
+                "text": "Szokatlanul fasz"
+            },
+            {
+                "type": "noun",
+                "text": "Szop-o-matic"
+            },
+            {
+                "type": "noun",
+                "text": "Szopógép"
+            },
+            {
+                "type": "noun",
+                "text": "Szopógörcs"
+            },
+            {
+                "type": "noun",
+                "text": "Szopós kurva"
+            },
+            {
+                "type": "adjective",
+                "text": "Szopottfarkú"
+            },
+            {
+                "type": "adjective",
+                "text": "Szűklyukú"
+            },
+            {
+                "type": "noun",
+                "text": "Szúnyogfaszni"
+            },
+            {
+                "type": "noun",
+                "text": "Szuperbuzi"
+            },
+            {
+                "type": "noun",
+                "text": "Szuperkurva"
+            },
+            {
+                "type": "adjective",
+                "text": "Szűzhártya-repedéses"
+            },
+            {
+                "type": "noun",
+                "text": "Szűzkurva"
+            },
+            {
+                "type": "noun",
+                "text": "Szűzpicsa"
+            },
+            {
+                "type": "noun",
+                "text": "Szűzpunci"
+            },
+            {
+                "type": "noun",
+                "text": "Tikfos"
+            },
+            {
+                "type": "noun",
+                "text": "Tikszar"
+            },
+            {
+                "type": "adjective",
+                "text": "Tompatökű"
+            },
+            {
+                "type": "adjective",
+                "text": "Törpefaszú"
+            },
+            {
+                "type": "adjective",
+                "text": "Toszatlan"
+            },
+            {
+                "type": "adjective",
+                "text": "Toszott"
+            },
+            {
+                "type": "adjective",
+                "text": "Totálisan hülye"
+            },
+            {
+                "type": "adjective",
+                "text": "Tyű de picsa"
+            },
+            {
+                "type": "adjective",
+                "text": "Tyúkfasznyi"
+            },
+            {
+                "type": "noun",
+                "text": "Tyúkszar"
+            },
+            {
+                "type": "noun",
+                "text": "Vadfasz"
+            },
+            {
+                "type": "noun",
+                "text": "Valag"
+            },
+            {
+                "type": "noun",
+                "text": "Valagváladék"
+            },
+            {
+                "type": "noun",
+                "text": "Végbélféreg"
+            },
+            {
+                "type": "noun",
+                "text": "Xar"
+            },
+            {
+                "type": "adjective",
+                "text": "Zsugorított faszú"
+            }
+        ]
+    }
+}
