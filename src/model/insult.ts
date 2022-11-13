@@ -16,7 +16,7 @@ export interface CreateInsultOptions {
 export const createInsult = ({ noun, adjectives }: CreateInsultOptions) => {
   const concatenated = adjectives.concat(noun).join(" ");
   const sentence = `Te ${concatenated.toLowerCase()}!`;
-  return <Insult>{ noun, adjectives, concatenated, sentence };
+  return <Insult>{ adjectives, concatenated, noun, sentence };
 };
 
 export interface CreateRandomInsultOptions {

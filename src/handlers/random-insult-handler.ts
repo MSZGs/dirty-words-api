@@ -1,4 +1,11 @@
-import { createHandler, getRandomNumber, jsonResponse, isNumericString, createQueryParamParser } from "../helpers.js";
+import {
+  createHandler,
+  getRandomNumber,
+  jsonResponse,
+  isNumericString,
+  createQueryParamParser,
+  enableCross,
+} from "../helpers.js";
 import { createRandomInsult } from "../model/insult.js";
 
 interface QueryParams {
@@ -9,9 +16,11 @@ const parseQuery = createQueryParamParser<QueryParams>(query => ({
   length: isNumericString(query?.length) ? Number(query?.length) : undefined,
 }));
 
-export default createHandler(request => {
-  const query = parseQuery(request);
-  const length = query.length ?? getRandomNumber(1, 6);
+export default createHandler(
+  enableCross("*", request => {
+    const query = parseQuery(request);
+    const length = query.length ?? getRandomNumber(1, 6);
 
-  return jsonResponse(createRandomInsult({ length }));
-});
+    return jsonResponse(createRandomInsult({ length }));
+  })
+);

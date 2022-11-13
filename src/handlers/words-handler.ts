@@ -1,5 +1,5 @@
 import { Request } from "itty-router";
-import { createHandler, jsonResponse, createQueryParamParser } from "../helpers.js";
+import { createHandler, jsonResponse, createQueryParamParser, enableCross } from "../helpers.js";
 import { getAllWords, getWordsByType, selectText, WordData } from "../model/words.js";
 
 interface QueryParams {
@@ -12,19 +12,21 @@ const parseQuery = createQueryParamParser<QueryParams>(query => ({
   type: query ? query.type : undefined,
 }));
 
-export default createHandler((request: Request) => {
-  const query = parseQuery(request);
+export default createHandler(
+  enableCross("*", (request: Request) => {
+    const query = parseQuery(request);
 
-  let result: WordData[] = [];
-  if (query.type) {
-    result = getWordsByType(query.type.toLocaleLowerCase());
-  } else {
-    result = getAllWords();
-  }
+    let result: WordData[] = [];
+    if (query.type) {
+      result = getWordsByType(query.type.toLocaleLowerCase());
+    } else {
+      result = getAllWords();
+    }
 
-  if (query.justWords) {
-    return jsonResponse(result.map(selectText));
-  } else {
-    return jsonResponse(result);
-  }
-});
+    if (query.justWords) {
+      return jsonResponse(result.map(selectText));
+    } else {
+      return jsonResponse(result);
+    }
+  })
+);

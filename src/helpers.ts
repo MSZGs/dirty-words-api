@@ -1,10 +1,31 @@
-import { RouteHandler, Request, Obj } from "itty-router";
+import { Request, Obj } from "itty-router";
 
-export interface WorkerRouteHandler<TRequest> extends RouteHandler<TRequest> {
-  (request: TRequest, ...args: unknown[]): Response;
+export type ResponseOptions = { body?: BodyInit | null; init?: ResponseInit };
+
+export interface Handler {
+  (request: Request, ...args: unknown[]): ResponseOptions;
 }
 
-export const createHandler = <TRequest = Request>(handler: WorkerRouteHandler<TRequest>) => handler;
+export const createHandler = (handler: Handler) => (request: Request) => {
+  const responseData = handler(request);
+  return new Response(responseData.body, responseData.init);
+};
+
+export const enableCross = (origin: string, handler: Handler) => (request: Request) => {
+  const headers = { "Access-Control-Allow-Origin": origin };
+  const response = handler(request);
+  return <ResponseOptions>{
+    body: response.body,
+    init: { ...response.init, headers: { ...response.init?.headers, ...headers } },
+  };
+};
+
+export const jsonResponse = <TResponse>(data: TResponse, init?: ResponseInit) => {
+  const body = JSON.stringify(data);
+  const headers = { "Content-type": "application/json" };
+
+  return { body, init: { ...init, headers: { ...init?.headers, ...headers } } };
+};
 
 export type QueryParamParser<TQueryParam> = (query: Obj | undefined) => TQueryParam;
 
@@ -12,13 +33,6 @@ export const createQueryParamParser =
   <TQueryParam>(parser: QueryParamParser<TQueryParam>) =>
   (request: Request) =>
     parser(request?.query);
-
-export const jsonResponse = <TResponse>(data: TResponse, init?: ResponseInit) => {
-  const body = JSON.stringify(data);
-  const headers = { "Content-type": "application/json" };
-
-  return new Response(body, { ...init, headers: { ...init?.headers, ...headers } });
-};
 
 /**
  * Getting a random integer between two values.
