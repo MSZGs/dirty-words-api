@@ -24,7 +24,7 @@ export const jsonResponse = <TResponse>(data: TResponse, init?: ResponseInit) =>
   const body = JSON.stringify(data);
   const headers = { "Content-type": "application/json" };
 
-  return { body, init: { ...init, headers: { ...init?.headers, ...headers } } };
+  return <ResponseOptions>{ body, init: { ...init, headers: { ...init?.headers, ...headers } } };
 };
 
 export type QueryParamParser<TQueryParam> = (query: Obj | undefined) => TQueryParam;
