@@ -1,0 +1,120 @@
+openapi: 3.0.1
+
+info:
+  title: Dirty Words API
+  version: 1.0.0
+  description: Just an API for that legendary [DirtyWords.xml](https://github.com/skidoodle/ekreta-src/blob/master/KretaWeb/Resources/DirtyWords.xml) from [e-Kréta](https://www.e-kreta.hu/).
+
+servers:
+  - url: "http://127.0.0.1:8787"
+    description: Local dev
+  - url: "https://{service}.{user}.workers.dev"
+    description: Cloudflare workers
+    variables:
+      service:
+        default: dirty-words-api
+      user:
+        default: mszgs
+  - url: "https://api.dirty-words.mszgs.com"
+security: []
+
+paths:
+  "/words":
+    get:
+      summary: Get those dirty words.
+      description: Returns the words from the `DirtyWords.xml`.
+      operationId: getWords
+      tags:
+        - words
+      parameters:
+        - name: type
+          in: query
+          required: false
+          schema:
+            type: string
+          example: adjective
+          description: Filter the results by type.
+        - name: justWords
+          in: query
+          allowEmptyValue: true
+          schema:
+            type: boolean
+          description: Return only the text values
+
+      responses:
+        "200":
+          description: Array of the requested words.
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - type: array
+                    items:
+                      $ref: "#/components/schemas/Word"
+                  - type: array
+                    items:
+                      type: string
+  "/insults/random":
+    get:
+      summary: Get a nasty insult.
+      description: Returns an `Insult` randomly generated form the words in the `DirtyWords.xml`.
+      operationId: getRandomInsult
+      tags:
+        - insults
+      parameters:
+        - name: length
+          in: query
+          required: false
+          schema:
+            type: number
+            minimum: 0
+          description: Sets the number of adjectives in the returned `Insult`.
+      responses:
+        "200":
+          description: The generated insult
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Insult"
+
+components:
+  schemas:
+    Word:
+      type: object
+      properties:
+        type:
+          type: string
+          example: adjectives
+          description: The type of the word.
+        text:
+          type: string
+          example: Aszott
+          description: The word.
+      required:
+        - type
+        - text
+    Insult:
+      type: object
+      properties:
+        adjectives:
+          type: array
+          items:
+            type: string
+            example: Dunyhavalagú
+          description: The adjectives in the insult.
+        concatenated:
+          type: string
+          example: Dunyhavalagú Pina
+        noun:
+          type: string
+          example: Pina
+          description: The noun of the insult.
+        sentence:
+          type: string
+          example: Te dunyhavalagú pina!
+          description: The nasty insult.
+      required:
+        - adjectives
+        - concatenated
+        - noun
+        - sentence

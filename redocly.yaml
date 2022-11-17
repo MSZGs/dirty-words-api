@@ -1,0 +1,15 @@
+# See https://redocly.com/docs/cli/configuration/
+
+apis:
+  dirty-words-api@1.0.0:
+    root: ./openapi.yaml
+
+extends:
+  - recommended
+
+features.openapi:
+  generateCodeSamples:
+    languages:
+      - lang: curl
+      - lang: Node.js
+      - lang: Python
