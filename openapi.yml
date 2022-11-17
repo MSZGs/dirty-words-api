@@ -4,6 +4,9 @@ info:
   title: Dirty Words API
   version: 1.0.0
   description: Just an API for that legendary [DirtyWords.xml](https://github.com/skidoodle/ekreta-src/blob/master/KretaWeb/Resources/DirtyWords.xml) from [e-Kréta](https://www.e-kreta.hu/).
+  license:
+    name: The Unlicense
+    url: https://unlicense.org/
 
 servers:
   - url: "http://127.0.0.1:8787"
