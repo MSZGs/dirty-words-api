@@ -71,6 +71,7 @@ paths:
           schema:
             type: number
             minimum: 0
+            maximum: 100
           description: Sets the number of adjectives in the returned `Insult`.
       responses:
         "200":
@@ -79,6 +80,12 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Insult"
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
 
 components:
   schemas:
@@ -121,3 +128,10 @@ components:
         - concatenated
         - noun
         - sentence
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+        status:
+          type: number

@@ -2,6 +2,11 @@ import { Request, Obj } from "itty-router";
 
 export type ResponseOptions = { body?: BodyInit | null; init?: ResponseInit };
 
+export interface ErrorResponseBody<TStatus extends number> {
+  status: TStatus;
+  message: string;
+}
+
 export interface Handler {
   (request: Request, ...args: unknown[]): ResponseOptions;
 }
@@ -26,6 +31,9 @@ export const jsonResponse = <TResponse>(data: TResponse, init?: ResponseInit) =>
 
   return <ResponseOptions>{ body, init: { ...init, headers: { ...init?.headers, ...headers } } };
 };
+
+export const errorResponse = <TStatus extends number>(message: string, status: TStatus, init?: ResponseInit) =>
+  jsonResponse<ErrorResponseBody<TStatus>>({ message, status }, { ...init, status });
 
 export type QueryParamParser<TQueryParam> = (query: Obj | undefined) => TQueryParam;
 
