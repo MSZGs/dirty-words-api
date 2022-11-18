@@ -6,7 +6,7 @@
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
   "overrides": [],
   "parserOptions": {
-    "ecmaVersion": "latest",
+    "ecmaVersion": 2022,
     "sourceType": "module",
     "project": ["tsconfig.json"]
   },
