@@ -18,6 +18,7 @@
   "scripts": {
     "start": "wrangler dev src/index.ts",
     "deploy": "wrangler publish src/index.ts",
+    "tsc": "tsc",
     "lint": "eslint ."
   },
   "dependencies": {
