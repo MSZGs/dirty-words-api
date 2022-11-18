@@ -2,6 +2,8 @@ import { Request, Obj } from "itty-router";
 
 export type ResponseOptions = { body?: BodyInit | null; init?: ResponseInit };
 
+export const createResponse = ({ body, init }: ResponseOptions) => new Response(body, init);
+
 export interface ErrorResponseBody<TStatus extends number> {
   status: TStatus;
   message: string;
@@ -12,8 +14,12 @@ export interface Handler {
 }
 
 export const createHandler = (handler: Handler) => (request: Request) => {
-  const responseData = handler(request);
-  return new Response(responseData.body, responseData.init);
+  try {
+    const responseData = handler(request);
+    return createResponse(responseData);
+  } catch (ex) {
+    return createResponse(errorResponse("Internal Server Error", 500));
+  }
 };
 
 export const enableCross = (origin: string, handler: Handler) => (request: Request) => {
